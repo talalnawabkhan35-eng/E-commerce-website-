@@ -176,9 +176,28 @@
         <h2 class="text-center mb-4">Your Cart</h2>
         <div id="cart-items" class="list-group"></div>
         <div class="text-end mt-3">
-            <p id="cart-total">Total: $0</p>
-            <button id="checkout" class="btn btn-gold">Proceed to Checkout</button>
-        </div>
+    <p id="cart-total">Total: $0</p>
+
+    <!-- PayPal Button -->
+    <div id="paypal-button-container" class="mb-2"></div>
+
+    <!-- Payoneer Link -->
+    <a href="YOUR_PAYONEER_PAYMENT_LINK" target="_blank" class="btn btn-warning mb-2">
+        Pay with Payoneer
+    </a>
+
+    <!-- Bank Transfer Info -->
+    <div class="mb-2">
+        <p>Bank Transfer Details:</p>
+        <ul>
+            <li>Bank Name: ABC Bank</li>
+            <li>Account Number: 123456789</li>
+            <li>IBAN: PK12ABCD345678</li>
+            <li>SWIFT: ABCDPK22</li>
+        </ul>
+        <p>After payment, send proof to <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    </div>
+</div>
     </div>
 </section>
 
