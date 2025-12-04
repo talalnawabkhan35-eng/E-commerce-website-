@@ -27,7 +27,10 @@
     border-radius: 5px;
     margin-bottom: 10px;
 }
-
+#contact input,
+#c0ntact textarea {
+    color: #000;
+}
 #cart-total {
     color: #d4af37; /* gold total text */
     font-weight: bold;
@@ -168,13 +171,13 @@
 </section>
 
 <!-- Cart Section -->
-<section id="cart" class="py-5 >
+<section id="cart" class="py-5" >
     <div class="container">
         <h2 class="text-center mb-4">Your Cart</h2>
         <div id="cart-items" class="list-group"></div>
         <div class="text-end mt-3">
             <p id="cart-total">Total: $0</p>
-            <button id="checkout" class="btn btn-primary">Proceed to Checkout</button>
+            <button id="checkout" class="btn btn-gold">Proceed to Checkout</button>
         </div>
     </div>
 </section>
